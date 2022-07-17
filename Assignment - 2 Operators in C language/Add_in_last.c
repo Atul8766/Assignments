@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    int num,digit=9;
-    printf("Enter a number: ");
-    scanf("%d",&num);
-    printf("Expected output: %d%d\n",num,digit);
+    int num,digit;
+    printf("Enter a number and digit: ");
+    scanf("%d%d",&num,&digit);
+    num = num/10;
+    num = num+digit;
+    printf("Expected output: %d\n",num);
     return 0;
 }
