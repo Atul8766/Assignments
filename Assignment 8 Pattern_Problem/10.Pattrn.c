@@ -11,11 +11,12 @@ int main()
             if (j <= 5-i || j>=3+i)
             {
                 printf("%d",k);
-                j<=4?k++:k--;
+                j<4?k++:k--;
             }
             else
             {
                 printf(" ");
+                j<4?k++:k--;
             }
         }
         printf("\n");
