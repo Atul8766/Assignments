@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "iostream": "cpp",
+        "new": "cpp"
+    }
+}
